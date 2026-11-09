@@ -52,3 +52,21 @@ nav button.on{color:var(--pri)}nav button.on span{filter:none;opacity:1;transfor
 @keyframes fall{to{transform:translateY(105vh) rotate(540deg);opacity:.8}}
 :focus-visible{outline:3px solid var(--acc);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ---- 2-kun: O'rganish ---- */
+.btn:disabled{opacity:.5;box-shadow:none;cursor:default}
+.btn.bad{background:var(--bad);box-shadow:0 4px 0 #c93a49}.btn.bad:active{box-shadow:0 0 0 #c93a49}
+.stat{text-align:center;padding:12px 6px}.stat b{display:block;font-size:20px}.stat span{font-size:12px;color:var(--mute)}
+.path{display:flex;flex-direction:column;align-items:center;gap:20px;margin-top:14px}
+.unit{width:100%;background:linear-gradient(135deg,var(--pri),#9b6dff);color:#fff;border-radius:16px;padding:12px 16px;margin-top:10px}
+.unit .mute{color:rgba(255,255,255,.8)}
+.node{position:relative;width:74px;height:74px;border-radius:50%;border:0;font-size:28px;font-weight:800;color:#fff;background:var(--pri);box-shadow:0 6px 0 var(--pri-d);cursor:pointer;transition:filter .1s}
+.node:active:not(:disabled){filter:brightness(.92)}
+.node.done{background:var(--ok);box-shadow:0 6px 0 var(--ok-d)}
+.node.lock{background:var(--line);color:var(--mute);box-shadow:0 6px 0 rgba(0,0,0,.12);cursor:not-allowed;font-size:22px}
+.node.cur{animation:pulse 1.6s ease-in-out infinite}
+.node .go{position:absolute;top:-30px;left:50%;transform:translateX(-50%);background:var(--card);color:var(--pri);border:2px solid var(--line);border-radius:12px;padding:3px 10px;font-size:12px;font-weight:800;white-space:nowrap}
+@keyframes pulse{50%{transform:scale(1.07)}}
+.fc{min-height:290px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:10px;cursor:pointer;user-select:none}
+.fcde{font-size:34px;font-weight:800;letter-spacing:-.5px}.fcuz{font-size:26px;font-weight:800;color:var(--pri)}
+.art-der{color:#3b82f6}.art-die{color:#ef4444}.art-das{color:#22a06b}

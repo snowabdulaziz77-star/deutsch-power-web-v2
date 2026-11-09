@@ -53,3 +53,16 @@ export function week() {                    // oxirgi 7 kun
   return [6,5,4,3,2,1,0].map(a => { const k = dstr(a), d = new Date(Date.now() - a * 864e5);
     return {k, l:['Ya','Du','Se','Ch','Pa','Ju','Sh'][d.getDay()], xp:S.hist[k] || 0, today:a === 0}; });
 }
+
+// ---- 2-kun: O'rganish (takrorlash tizimi va dars yo'li) ----
+export const dueList = () => Object.entries(S.mist).filter(([, m]) => m.due <= today()).map(([de, m]) => ({de, uz: m.uz, ex: m.ex}));
+export function mistake([de, uz, ex]) { S.mist[de] = {uz, ex, box: 0, due: today()}; save(); }
+export function reviewAns(de, ok) {          // 1 -> 3 kun oraliq, 2 marta to'g'ri bo'lsa daftardan chiqadi
+  const m = S.mist[de]; if (!m) return;
+  if (!ok) { m.box = 0; m.due = today(); }
+  else if (++m.box >= 3) delete S.mist[de];
+  else m.due = dstr(-[1, 3][m.box - 1]);
+  save();
+}
+export const stepDone = (lv, l, k) => !!(S.steps && S.steps[`${lv}:${l}:${k}`]);
+export function markStep([lv, l, k]) { S.steps = S.steps || {}; S.steps[`${lv}:${l}:${k}`] = 1; save(); }
