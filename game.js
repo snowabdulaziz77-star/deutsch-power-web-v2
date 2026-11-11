@@ -21,7 +21,7 @@ function hub() {
   <div class="row" style="margin-top:10px"><input class="date" id="rc" maxlength="4" placeholder="Xona kodi" style="text-transform:uppercase;text-align:center;letter-spacing:4px;font-weight:800"><button class="btn" style="width:auto;background:#fff;color:var(--pri-d)" data-a="join">KIRISH</button></div>
   <button class="btn" style="margin-top:10px;background:rgba(255,255,255,.2);box-shadow:none" data-a="solo">🤖 Yolg‘iz mashq (Brezel bilan)</button></div>
   ${net.online ? '' : '<div class="card mute">ℹ️ Do‘stlar bilan o‘ynash uchun Firebase sozlanishi kerak (firebase-config.js). Hozircha faqat yolg‘iz mashq ishlaydi.</div>'}
-  <h2>Tez kunda</h2><div class="chips" style="flex-wrap:wrap">${SOON.map(s => `<span class="chip" style="cursor:default">${s[0]} ${s[1]}</span>`).join('')}</div></div>`;
+  <h2>Tez kunda</h2><div class="soon">${SOON.map(s => `<div class="sg"><span>${s[0]}</span><b>${s[1]}</b><small>Tez kunda</small></div>`).join('')}</div></div>`;
   root.onclick = async e => { const b = e.target.closest('[data-a]'); if (!b) return; hap();
     try { if (b.dataset.a === 'create') await createRoom(false); else if (b.dataset.a === 'solo') await createRoom(true);
       else { const c = document.getElementById('rc').value.trim().toUpperCase(); if (c.length === 4) await joinRoom(c); else toast('4 harfli kodni yozing'); } } catch (er) { toast(er.message); } };

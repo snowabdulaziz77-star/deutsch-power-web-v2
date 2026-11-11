@@ -78,3 +78,6 @@ nav button.on{color:var(--pri)}nav button.on span{filter:none;opacity:1;transfor
 .timer{height:10px;background:var(--line);border-radius:99px;overflow:hidden;margin-bottom:10px}.timer i{display:block;height:100%;width:100%;background:var(--acc);border-radius:99px}.timer i.late{background:var(--bad)}
 .q{font-size:28px;font-weight:800;text-align:center;margin:12px 0 18px;line-height:1.2}
 .code{font-size:56px;font-weight:800;letter-spacing:10px;color:var(--pri);margin:4px 0 10px}
+.soon{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sg{display:flex;flex-direction:column;gap:2px;background:var(--card);border:2px dashed var(--line);border-radius:16px;padding:12px 14px}
+.sg span{font-size:26px}.sg b{font-size:15px}.sg small{color:var(--mute);font-size:12px;font-weight:700}
