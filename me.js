@@ -8,4 +8,3 @@ export function render(el) {
     </div>
   `;
 }
-
