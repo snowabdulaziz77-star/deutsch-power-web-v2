@@ -81,3 +81,8 @@ nav button.on{color:var(--pri)}nav button.on span{filter:none;opacity:1;transfor
 .soon{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .sg{display:flex;flex-direction:column;gap:2px;background:var(--card);border:2px dashed var(--line);border-radius:16px;padding:12px 14px}
 .sg span{font-size:26px}.sg b{font-size:15px}.sg small{color:var(--mute);font-size:12px;font-weight:700}
+
+/* ---- Lug'at ---- */
+.wr{border-bottom:1px solid var(--line);padding:10px 0}.wr:last-child{border:0}
+.wh{display:flex;align-items:center;gap:8px;cursor:pointer}.wd{font-size:18px;font-weight:800}
+.wx{padding:8px 0 2px;display:flex;flex-direction:column;gap:8px}.wx .row .btn{flex:1}

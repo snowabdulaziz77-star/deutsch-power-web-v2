@@ -3,13 +3,14 @@ import {ready} from './data.js';
 import {render as home} from './home.js';
 import {render as learn} from './learn.js';
 import {render as game} from './game.js';
+import {render as vocab} from './vocab.js';
 
 const tg = window.Telegram && window.Telegram.WebApp;
 if (tg) { tg.ready(); tg.expand(); }
 if (S.theme) document.documentElement.dataset.theme = S.theme; else if (tg && tg.colorScheme) document.documentElement.dataset.theme = tg.colorScheme;
 
 const soon = (title, day) => el => { el.innerHTML = `<div class="pop card" style="text-align:center;margin-top:40px"><div style="font-size:54px">🚧</div><h2>${title}</h2><p class="mute">${day}-kunda yangilanadi</p></div>`; };
-const TABS = [['home','🏠','Bosh',home],['learn','📚','O‘rganish',learn],['game','🎮','O‘yin',game],['vocab','🔤','Lug‘at',soon('Lug‘at', 5)],['me','👤','Profil',soon('Profil', 7)]];
+const TABS = [['home','🏠','Bosh',home],['learn','📚','O‘rganish',learn],['game','🎮','O‘yin',game],['vocab','🔤','Lug‘at',vocab],['me','👤','Profil',soon('Profil', 7)]];
 let tab = 'home';
 function go(t) { tab = t;
   document.getElementById('nav').innerHTML = TABS.map(x => `<button class="${x[0] === t ? 'on' : ''}" data-t="${x[0]}" aria-label="${x[2]}"><span>${x[1]}</span>${x[2]}</button>`).join('');
