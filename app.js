@@ -4,6 +4,7 @@ import {render as home} from './home.js';
 import {render as learn} from './learn.js';
 import {render as game} from './game.js';
 import {render as vocab} from './vocab.js';
+import {render as profile} from './me.js';
 
 const tg = window.Telegram && window.Telegram.WebApp;
 if (tg) { tg.ready(); tg.expand(); }
