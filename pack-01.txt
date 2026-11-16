@@ -1,0 +1,93 @@
+# Format: nemischa = o'zbekcha | misol | esda qol ishorasi
+# "## DARAJA | Mavzu" yangi bo'lim boshlaydi.
+
+## A1 | Salomlashish
+Hallo = Salom | Hallo, wie geht's? | Hallo ≈ hello
+Guten Morgen = Xayrli tong | Guten Morgen, Anna! | Morgen ≈ morning
+Guten Tag = Xayrli kun | Guten Tag, Herr Müller! | Tag ≈ day
+Guten Abend = Xayrli kech | Guten Abend, Frau Weber! |
+Gute Nacht = Xayrli tun | Gute Nacht, Mama! | Nacht ≈ night
+Tschüss = Xayr | Tschüss, bis morgen! | «Chyus» deb xayrlashasiz
+Danke = Rahmat | Danke schön! | Danke ≈ thank
+Bitte = Marhamat, iltimos | Bitte sehr! | Ikki ma'noli: «iltimos» va «arzimaydi»
+Entschuldigung = Kechirasiz | Entschuldigung, wo ist der Bahnhof? | Schuld = aybdorlik, ent-schuld-igung = aybdan xalos qilish
+Ja = Ha | Ja, gern! |
+Nein = Yo'q | Nein, danke. | Nein ≈ no
+Wie geht's = Ahvolingiz qanday | Wie geht's dir? Gut, danke! |
+Ich heiße = Mening ismim | Ich heiße Ali. |
+Woher kommst du = Qayerdansan | Woher kommst du? Aus Usbekistan. | Woher = qayerdan, wo = qayerda
+Ich verstehe nicht = Tushunmayapman | Ich verstehe nicht, bitte langsam. |
+
+## A1 | Uy va buyumlar
+der Tisch = Stol | Der Tisch ist groß. | Tisch ← lotincha discus ≈ dish: stolda idishlar turadi
+der Stuhl = Stul | Der Stuhl ist neu. | Stuhl ≈ stul (o'zbekchada ham «stul» deymiz)
+das Bett = Karavot | Das Bett ist weich. | Bett ≈ bed
+die Tür = Eshik | Die Tür ist offen. | Tür ≈ door (T ↔ D)
+das Fenster = Deraza | Das Fenster ist zu. |
+die Lampe = Chiroq | Die Lampe ist an. | Lampe ≈ lampa
+der Schrank = Shkaf | Der Schrank ist leer. | Schrank ≈ shkaf (deyarli bir xil)
+die Küche = Oshxona | Die Küche ist klein. | Küche ≈ kitchen
+das Zimmer = Xona | Mein Zimmer ist hell. |
+der Schlüssel = Kalit | Wo ist mein Schlüssel? | Schloss (qulf) → Schlüssel (kalit)
+das Handy = Telefon | Mein Handy ist neu. | Handy inglizcha emas, nemischa so'z!
+
+## A1 | Ovqat
+das Brot = Non | Ich esse Brot. | Brot ≈ bread
+das Wasser = Suv | Ich trinke Wasser. | Wasser ≈ water
+die Milch = Sut | Die Milch ist kalt. | Milch ≈ milk
+der Käse = Pishloq | Der Käse ist lecker. | Käse ≈ cheese
+das Fleisch = Go'sht | Ich esse kein Fleisch. |
+der Fisch = Baliq | Der Fisch ist frisch. | Fisch ≈ fish
+das Ei = Tuxum | Ich esse ein Ei. | «Ay!» — tuxum sindi
+der Apfel = Olma | Der Apfel ist rot. | Apfel ≈ apple
+die Banane = Banan | Die Banane ist gelb. | deyarli bir xil
+die Tomate = Pomidor | Die Tomate ist rot. |
+die Kartoffel = Kartoshka | Ich mag Kartoffeln. | Kartoffel ≈ kartoshka
+der Reis = Guruch | Ich esse gern Reis. | Reis ≈ rice
+der Zucker = Shakar | Ohne Zucker, bitte. | Zucker ≈ sugar
+das Salz = Tuz | Das Salz ist hier. | Salz ≈ salt
+der Kaffee = Qahva | Ich trinke Kaffee. | Kaffee ≈ coffee
+der Tee = Choy | Ein Tee, bitte. | Tee ≈ tea
+die Suppe = Sho'rva | Die Suppe ist heiß. | Suppe ≈ soup
+
+## A1 | Oila
+die Mutter = Ona | Meine Mutter kocht. | Mutter ≈ mother
+der Vater = Ota | Mein Vater arbeitet. | Vater ≈ father
+der Bruder = Aka yoki uka | Mein Bruder ist zehn. | Bruder ≈ brother
+die Schwester = Opa yoki singil | Meine Schwester ist nett. | Schwester ≈ sister
+der Sohn = O'g'il | Er ist mein Sohn. | Sohn ≈ son
+die Tochter = Qiz farzand | Sie ist meine Tochter. | Tochter ≈ daughter
+die Großmutter = Buvi | Meine Großmutter ist alt. | groß (katta) + Mutter (ona)
+der Großvater = Bobo | Mein Großvater liest. | groß (katta) + Vater (ota)
+das Kind = Bola | Das Kind spielt. | Kind ≈ kid
+der Freund = Do'st | Er ist mein Freund. | Freund ≈ friend
+
+## A1 | Shahar va transport
+das Auto = Mashina | Das Auto ist schnell. | Auto = avto
+der Bus = Avtobus | Der Bus kommt. | Bus ≈ bus
+der Zug = Poyezd | Der Zug fährt ab. | ziehen (tortmoq): poyezd vagonlarni tortadi
+das Flugzeug = Samolyot | Das Flugzeug landet. | Flug (parvoz) + Zeug (asbob)
+das Fahrrad = Velosiped | Ich fahre Fahrrad. | fahren (haydamoq) + Rad (g'ildirak)
+der Bahnhof = Vokzal | Wo ist der Bahnhof? | Bahn (yo'l) + Hof (hovli)
+die Straße = Ko'cha | Die Straße ist lang. | Straße ≈ street
+die Stadt = Shahar | Die Stadt ist groß. |
+die Schule = Maktab | Die Schule beginnt um acht. | Schule ≈ shkola
+das Krankenhaus = Kasalxona | Er ist im Krankenhaus. | krank (kasal) + Haus (uy)
+die Apotheke = Dorixona | Die Apotheke ist offen. | Apotheke ≈ apteka
+der Supermarkt = Supermarket | Ich gehe zum Supermarkt. |
+
+## A1 | Asosiy fe'llar
+sein = Bo'lmoq | Ich bin müde. | ich bin, du bist, er ist; sein ≈ to be
+haben = Ega bo'lmoq | Ich habe Hunger. | haben ≈ have
+gehen = Bormoq | Ich gehe nach Hause. | gehen ≈ go
+kommen = Kelmoq | Er kommt aus Taschkent. | kommen ≈ come
+machen = Qilmoq | Was machst du? |
+lernen = O'rganmoq | Ich lerne Deutsch. | lernen ≈ learn
+essen = Yemoq | Wir essen Pizza. |
+trinken = Ichmoq | Ich trinke Tee. | trinken ≈ drink
+sprechen = Gapirmoq | Er spricht Deutsch. | sprechen ≈ speak
+wohnen = Yashamoq | Ich wohne in Taschkent. |
+arbeiten = Ishlamoq | Sie arbeitet im Büro. | Arbeit = ish
+schreiben = Yozmoq | Ich schreibe eine E-Mail. | schreiben ≈ script
+sehen = Ko'rmoq | Ich sehe einen Vogel. | sehen ≈ see
+hören = Eshitmoq | Ich höre Musik. | hören ≈ hear

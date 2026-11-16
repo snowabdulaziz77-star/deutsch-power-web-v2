@@ -94,3 +94,6 @@ nav button.on{color:var(--pri)}nav button.on span{filter:none;opacity:1;transfor
 .hm.l1{background:#d9d2ff}.hm.l2{background:#b3a6ff}.hm.l3{background:#8b7bfa}.hm.l4{background:var(--pri)}
 .chip:disabled{opacity:.5;cursor:not-allowed}
 textarea.date{resize:vertical;font-family:inherit}
+
+/* ---- Esda qol ishorasi ---- */
+.hint{background:color-mix(in srgb,var(--acc) 16%,transparent);color:var(--ink);border-radius:12px;padding:8px 12px;font-size:14px;font-weight:700;text-align:left}

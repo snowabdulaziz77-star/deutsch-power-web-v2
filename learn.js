@@ -43,7 +43,7 @@ function session(el) {
   const c = M.q[M.i]; if (!c) return finish(el);
   const [de, uz, ex] = c.w;
   el.innerHTML = `<div class="pop"><div class="row" style="margin-bottom:14px"><button class="icon" data-x="1" aria-label="Chiqish">✕</button><div class="bar grow"><i style="width:${M.done / M.total * 100}%"></i></div><span class="mute">${M.done}/${M.total}</span></div>
-  <div class="card fc" data-f="1" role="button" tabindex="0"><div class="fcde">${art(de)}</div>${M.flip ? `<div class="fcuz">${esc(uz)}</div><div class="mute"><i>${esc(ex)}</i></div>` : '<div class="mute">Tarjima uchun bosing</div>'}</div>
+  <div class="card fc" data-f="1" role="button" tabindex="0"><div class="fcde">${art(de)}</div>${M.flip ? `<div class="fcuz">${esc(uz)}</div><div class="mute"><i>${esc(ex)}</i></div>${c.w[4] ? `<div class="hint">💡 ${esc(c.w[4])}</div>` : ''}` : '<div class="mute">Tarjima uchun bosing</div>'}</div>
   <button class="icon" data-s="1" aria-label="Eshitish" style="display:block;margin:0 auto 14px">🔊</button>
   <div class="row"><button class="btn bad" data-a="0">↺ Takror</button><button class="btn ok" data-a="1">✓ Bilaman</button></div>
   <p class="mute" style="text-align:center;margin-top:10px">Telefonda: o‘ngga surish = Bilaman, chapga = Takror</p></div>`;

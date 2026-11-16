@@ -3,17 +3,23 @@
   [
    "das Wasser",
    "Suv",
-   "Ich trinke Wasser."
+   "Ich trinke Wasser.",
+   "Ovqat",
+   "Wasser ≈ water"
   ],
   [
    "das Brot",
    "Non",
-   "Das Brot ist frisch."
+   "Das Brot ist frisch.",
+   "Ovqat",
+   "Brot ≈ bread"
   ],
   [
    "der Apfel",
    "Olma",
-   "Ich esse einen Apfel."
+   "Ich esse einen Apfel.",
+   "Ovqat",
+   "Apfel ≈ apple"
   ],
   [
    "das Haus",
@@ -23,12 +29,16 @@
   [
    "die Schule",
    "Maktab",
-   "Ich gehe zur Schule."
+   "Ich gehe zur Schule.",
+   "Shahar va transport",
+   "Schule ≈ shkola"
   ],
   [
    "der Freund",
    "Do'st",
-   "Mein Freund heißt Tom."
+   "Mein Freund heißt Tom.",
+   "Oila",
+   "Freund ≈ friend"
   ],
   [
    "das Buch",
@@ -53,27 +63,37 @@
   [
    "die Stadt",
    "Shahar",
-   "Berlin ist eine große Stadt."
+   "Berlin ist eine große Stadt.",
+   "Shahar va transport",
+   ""
   ],
   [
    "arbeiten",
    "Ishlamoq",
-   "Ich arbeite heute."
+   "Ich arbeite heute.",
+   "Asosiy fe'llar",
+   "Arbeit = ish"
   ],
   [
    "der Tisch",
    "Stol",
-   "Der Tisch ist neu."
+   "Der Tisch ist neu.",
+   "Uy va buyumlar",
+   "Tisch ← lotincha discus ≈ dish: stolda idishlar turadi"
   ],
   [
    "die Tür",
    "Eshik",
-   "Die Tür ist offen."
+   "Die Tür ist offen.",
+   "Uy va buyumlar",
+   "Tür ≈ door (T ↔ D)"
   ],
   [
    "das Auto",
    "Mashina",
-   "Das Auto ist schnell."
+   "Das Auto ist schnell.",
+   "Shahar va transport",
+   "Auto = avto"
   ],
   [
    "der Hund",
@@ -83,17 +103,23 @@
   [
    "die Mutter",
    "Ona",
-   "Meine Mutter kocht."
+   "Meine Mutter kocht.",
+   "Oila",
+   "Mutter ≈ mother"
   ],
   [
    "der Vater",
    "Ota",
-   "Mein Vater arbeitet."
+   "Mein Vater arbeitet.",
+   "Oila",
+   "Vater ≈ father"
   ],
   [
    "das Kind",
    "Bola",
-   "Das Kind lacht."
+   "Das Kind lacht.",
+   "Oila",
+   "Kind ≈ kid"
   ],
   [
    "die Blume",
@@ -103,12 +129,16 @@
   [
    "die Milch",
    "Sut",
-   "Ich trinke Milch."
+   "Ich trinke Milch.",
+   "Ovqat",
+   "Milch ≈ milk"
   ],
   [
    "der Tee",
    "Choy",
-   "Der Tee ist heiß."
+   "Der Tee ist heiß.",
+   "Ovqat",
+   "Tee ≈ tea"
   ],
   [
    "das Wetter",
@@ -123,7 +153,9 @@
   [
    "der Stuhl",
    "Stul",
-   "Der Stuhl ist bequem."
+   "Der Stuhl ist bequem.",
+   "Uy va buyumlar",
+   "Stuhl ≈ stul (o'zbekchada ham «stul» deymiz)"
   ],
   [
    "die Familie",
@@ -133,12 +165,16 @@
   [
    "essen",
    "Yemoq",
-   "Wir essen zusammen."
+   "Wir essen zusammen.",
+   "Asosiy fe'llar",
+   ""
   ],
   [
    "lernen",
    "O'rganmoq",
-   "Ich lerne Deutsch."
+   "Ich lerne Deutsch.",
+   "Asosiy fe'llar",
+   "lernen ≈ learn"
   ],
   [
    "gut",
@@ -173,12 +209,16 @@
   [
    "der Bruder",
    "Aka yoki uka",
-   "Mein Bruder ist klein."
+   "Mein Bruder ist klein.",
+   "Oila",
+   "Bruder ≈ brother"
   ],
   [
    "die Schwester",
    "Opa yoki singil",
-   "Meine Schwester singt."
+   "Meine Schwester singt.",
+   "Oila",
+   "Schwester ≈ sister"
   ],
   [
    "der Lehrer",
@@ -198,17 +238,23 @@
   [
    "die Straße",
    "Ko'cha",
-   "Die Straße ist lang."
+   "Die Straße ist lang.",
+   "Shahar va transport",
+   "Straße ≈ street"
   ],
   [
    "das Zimmer",
    "Xona",
-   "Das Zimmer ist klein."
+   "Das Zimmer ist klein.",
+   "Uy va buyumlar",
+   ""
   ],
   [
    "das Fenster",
    "Deraza",
-   "Das Fenster ist offen."
+   "Das Fenster ist offen.",
+   "Uy va buyumlar",
+   ""
   ],
   [
    "der Computer",
@@ -218,12 +264,16 @@
   [
    "das Handy",
    "Telefon",
-   "Mein Handy ist neu."
+   "Mein Handy ist neu.",
+   "Uy va buyumlar",
+   "Handy inglizcha emas, nemischa so'z!"
   ],
   [
    "der Kaffee",
    "Qahva",
-   "Ich trinke Kaffee."
+   "Ich trinke Kaffee.",
+   "Ovqat",
+   "Kaffee ≈ coffee"
   ],
   [
    "das Essen",
@@ -233,22 +283,30 @@
   [
    "der Reis",
    "Guruch",
-   "Ich esse Reis."
+   "Ich esse Reis.",
+   "Ovqat",
+   "Reis ≈ rice"
   ],
   [
    "das Fleisch",
    "Go'sht",
-   "Ich esse kein Fleisch."
+   "Ich esse kein Fleisch.",
+   "Ovqat",
+   ""
   ],
   [
    "das Ei",
    "Tuxum",
-   "Ich esse ein Ei."
+   "Ich esse ein Ei.",
+   "Ovqat",
+   "«Ay!» — tuxum sindi"
   ],
   [
    "der Käse",
    "Pishloq",
-   "Der Käse ist gut."
+   "Der Käse ist gut.",
+   "Ovqat",
+   "Käse ≈ cheese"
   ],
   [
    "die Butter",
@@ -258,12 +316,16 @@
   [
    "der Zucker",
    "Shakar",
-   "Kein Zucker, bitte."
+   "Kein Zucker, bitte.",
+   "Ovqat",
+   "Zucker ≈ sugar"
   ],
   [
    "das Salz",
    "Tuz",
-   "Das Salz ist hier."
+   "Das Salz ist hier.",
+   "Ovqat",
+   "Salz ≈ salt"
   ],
   [
    "die Tasche",
@@ -323,27 +385,37 @@
   [
    "sehen",
    "Ko'rmoq",
-   "Ich sehe einen Vogel."
+   "Ich sehe einen Vogel.",
+   "Asosiy fe'llar",
+   "sehen ≈ see"
   ],
   [
    "gehen",
    "Bormoq",
-   "Ich gehe nach Hause."
+   "Ich gehe nach Hause.",
+   "Asosiy fe'llar",
+   "gehen ≈ go"
   ],
   [
    "kommen",
    "Kelmoq",
-   "Ich komme aus Taschkent."
+   "Ich komme aus Taschkent.",
+   "Asosiy fe'llar",
+   "kommen ≈ come"
   ],
   [
    "machen",
    "Qilmoq",
-   "Was machst du?"
+   "Was machst du?",
+   "Asosiy fe'llar",
+   ""
   ],
   [
    "haben",
    "Ega bo'lmoq",
-   "Ich habe ein Buch."
+   "Ich habe ein Buch.",
+   "Asosiy fe'llar",
+   "haben ≈ have"
   ],
   [
    "ich",
@@ -503,7 +575,9 @@
   [
    "sein",
    "bo'lmoq",
-   "sein"
+   "sein",
+   "Asosiy fe'llar",
+   "ich bin, du bist, er ist; sein ≈ to be"
   ],
   [
    "werden",
@@ -548,7 +622,9 @@
   [
    "wohnen",
    "yashamoq",
-   "wohnen"
+   "wohnen",
+   "Asosiy fe'llar",
+   ""
   ],
   [
    "leben",
@@ -563,7 +639,9 @@
   [
    "sprechen",
    "gapirmoq",
-   "sprechen"
+   "sprechen",
+   "Asosiy fe'llar",
+   "sprechen ≈ speak"
   ],
   [
    "sagen",
@@ -583,7 +661,9 @@
   [
    "hören",
    "eshitmoq",
-   "hören"
+   "hören",
+   "Asosiy fe'llar",
+   "hören ≈ hear"
   ],
   [
    "lesen",
@@ -593,12 +673,16 @@
   [
    "schreiben",
    "yozmoq",
-   "schreiben"
+   "schreiben",
+   "Asosiy fe'llar",
+   "schreiben ≈ script"
   ],
   [
    "trinken",
    "ichmoq",
-   "trinken"
+   "trinken",
+   "Asosiy fe'llar",
+   "trinken ≈ drink"
   ],
   [
    "kochen",
@@ -783,22 +867,30 @@
   [
    "der Sohn",
    "O'g'il",
-   "Das ist der Sohn."
+   "Das ist der Sohn.",
+   "Oila",
+   "Sohn ≈ son"
   ],
   [
    "die Tochter",
    "Qiz",
-   "Das ist die Tochter."
+   "Das ist die Tochter.",
+   "Oila",
+   "Tochter ≈ daughter"
   ],
   [
    "die Großmutter",
    "Buvi",
-   "Das ist die Großmutter."
+   "Das ist die Großmutter.",
+   "Oila",
+   "groß (katta) + Mutter (ona)"
   ],
   [
    "der Großvater",
    "Bobo",
-   "Das ist der Großvater."
+   "Das ist der Großvater.",
+   "Oila",
+   "groß (katta) + Vater (ota)"
   ],
   [
    "der Onkel",
@@ -853,7 +945,9 @@
   [
    "die Küche",
    "Oshxona",
-   "Das ist die Küche."
+   "Das ist die Küche.",
+   "Uy va buyumlar",
+   "Küche ≈ kitchen"
   ],
   [
    "das Bad",
@@ -863,7 +957,9 @@
   [
    "das Bett",
    "Karavot",
-   "Das ist das Bett."
+   "Das ist das Bett.",
+   "Uy va buyumlar",
+   "Bett ≈ bed"
   ],
   [
    "der Garten",
@@ -873,7 +969,9 @@
   [
    "der Schlüssel",
    "Kalit",
-   "Das ist der Schlüssel."
+   "Das ist der Schlüssel.",
+   "Uy va buyumlar",
+   "Schloss (qulf) → Schlüssel (kalit)"
   ],
   [
    "das Licht",
@@ -883,7 +981,9 @@
   [
    "die Lampe",
    "Lampa",
-   "Das ist die Lampe."
+   "Das ist die Lampe.",
+   "Uy va buyumlar",
+   "Lampe ≈ lampa"
   ],
   [
    "der Teppich",
@@ -893,7 +993,9 @@
   [
    "der Schrank",
    "Shkaf",
-   "Das ist der Schrank."
+   "Das ist der Schrank.",
+   "Uy va buyumlar",
+   "Schrank ≈ shkaf (deyarli bir xil)"
   ],
   [
    "der Fernseher",
@@ -918,12 +1020,16 @@
   [
    "die Kartoffel",
    "Kartoshka",
-   "Das ist die Kartoffel."
+   "Das ist die Kartoffel.",
+   "Ovqat",
+   "Kartoffel ≈ kartoshka"
   ],
   [
    "die Tomate",
    "Pomidor",
-   "Das ist die Tomate."
+   "Das ist die Tomate.",
+   "Ovqat",
+   ""
   ],
   [
    "die Zwiebel",
@@ -933,7 +1039,9 @@
   [
    "die Banane",
    "Banan",
-   "Das ist die Banane."
+   "Das ist die Banane.",
+   "Ovqat",
+   "deyarli bir xil"
   ],
   [
    "die Orange",
@@ -948,7 +1056,9 @@
   [
    "die Suppe",
    "Sho'rva",
-   "Das ist die Suppe."
+   "Das ist die Suppe.",
+   "Ovqat",
+   "Suppe ≈ soup"
   ],
   [
    "der Salat",
@@ -1068,12 +1178,16 @@
   [
    "der Zug",
    "Poyezd",
-   "Das ist der Zug."
+   "Das ist der Zug.",
+   "Shahar va transport",
+   "ziehen (tortmoq): poyezd vagonlarni tortadi"
   ],
   [
    "das Flugzeug",
    "Samolyot",
-   "Das ist das Flugzeug."
+   "Das ist das Flugzeug.",
+   "Shahar va transport",
+   "Flug (parvoz) + Zeug (asbob)"
   ],
   [
    "das Taxi",
@@ -1484,6 +1598,160 @@
    "leise",
    "past ovozli",
    "leise"
+  ],
+  [
+   "Hallo",
+   "Salom",
+   "Hallo, wie geht's?",
+   "Salomlashish",
+   "Hallo ≈ hello"
+  ],
+  [
+   "Guten Morgen",
+   "Xayrli tong",
+   "Guten Morgen, Anna!",
+   "Salomlashish",
+   "Morgen ≈ morning"
+  ],
+  [
+   "Guten Tag",
+   "Xayrli kun",
+   "Guten Tag, Herr Müller!",
+   "Salomlashish",
+   "Tag ≈ day"
+  ],
+  [
+   "Guten Abend",
+   "Xayrli kech",
+   "Guten Abend, Frau Weber! |",
+   "Salomlashish",
+   ""
+  ],
+  [
+   "Gute Nacht",
+   "Xayrli tun",
+   "Gute Nacht, Mama!",
+   "Salomlashish",
+   "Nacht ≈ night"
+  ],
+  [
+   "Tschüss",
+   "Xayr",
+   "Tschüss, bis morgen!",
+   "Salomlashish",
+   "«Chyus» deb xayrlashasiz"
+  ],
+  [
+   "Danke",
+   "Rahmat",
+   "Danke schön!",
+   "Salomlashish",
+   "Danke ≈ thank"
+  ],
+  [
+   "Bitte",
+   "Marhamat, iltimos",
+   "Bitte sehr!",
+   "Salomlashish",
+   "Ikki ma'noli: «iltimos» va «arzimaydi»"
+  ],
+  [
+   "Entschuldigung",
+   "Kechirasiz",
+   "Entschuldigung, wo ist der Bahnhof?",
+   "Salomlashish",
+   "Schuld = aybdorlik, ent-schuld-igung = aybdan xalos qilish"
+  ],
+  [
+   "Ja",
+   "Ha",
+   "Ja, gern! |",
+   "Salomlashish",
+   ""
+  ],
+  [
+   "Nein",
+   "Yo'q",
+   "Nein, danke.",
+   "Salomlashish",
+   "Nein ≈ no"
+  ],
+  [
+   "Wie geht's",
+   "Ahvolingiz qanday",
+   "Wie geht's dir? Gut, danke! |",
+   "Salomlashish",
+   ""
+  ],
+  [
+   "Ich heiße",
+   "Mening ismim",
+   "Ich heiße Ali. |",
+   "Salomlashish",
+   ""
+  ],
+  [
+   "Woher kommst du",
+   "Qayerdansan",
+   "Woher kommst du? Aus Usbekistan.",
+   "Salomlashish",
+   "Woher = qayerdan, wo = qayerda"
+  ],
+  [
+   "Ich verstehe nicht",
+   "Tushunmayapman",
+   "Ich verstehe nicht, bitte langsam. |",
+   "Salomlashish",
+   ""
+  ],
+  [
+   "der Fisch",
+   "Baliq",
+   "Der Fisch ist frisch.",
+   "Ovqat",
+   "Fisch ≈ fish"
+  ],
+  [
+   "der Bus",
+   "Avtobus",
+   "Der Bus kommt.",
+   "Shahar va transport",
+   "Bus ≈ bus"
+  ],
+  [
+   "das Fahrrad",
+   "Velosiped",
+   "Ich fahre Fahrrad.",
+   "Shahar va transport",
+   "fahren (haydamoq) + Rad (g'ildirak)"
+  ],
+  [
+   "der Bahnhof",
+   "Vokzal",
+   "Wo ist der Bahnhof?",
+   "Shahar va transport",
+   "Bahn (yo'l) + Hof (hovli)"
+  ],
+  [
+   "das Krankenhaus",
+   "Kasalxona",
+   "Er ist im Krankenhaus.",
+   "Shahar va transport",
+   "krank (kasal) + Haus (uy)"
+  ],
+  [
+   "die Apotheke",
+   "Dorixona",
+   "Die Apotheke ist offen.",
+   "Shahar va transport",
+   "Apotheke ≈ apteka"
+  ],
+  [
+   "der Supermarkt",
+   "Supermarket",
+   "Ich gehe zum Supermarkt. |",
+   "Shahar va transport",
+   ""
   ]
  ],
  "A2": [
