@@ -27,7 +27,7 @@ export const due = () => Object.values(S.mist).filter(m => m.due <= today()).len
   if (S.last && S.last !== t) {
     const gap = Math.round((Date.parse(t) - Date.parse(S.last)) / 864e5);
     if (gap === 2 && S.freeze > 0) { S.freeze--; S.last = dstr(1); }
-    else if (gap > 1) S.streak = 0;
+    else if (gap > 1) { S.best = Math.max(S.best || 0, S.streak); S.streak = 0; }
   }
   if (S.quest.day !== t) S.quest = {day: t, p: {}, got: {}};
   save();
@@ -37,7 +37,7 @@ export function addXp(n) {
   const t = today(), before = dxp();
   S.xp += n; S.hist[t] = before + n;
   let first = false;
-  if (S.last !== t) { S.last = t; S.streak++; first = true; if (S.streak % 7 === 0) S.freeze++; }
+  if (S.last !== t) { S.last = t; S.streak++; S.best = Math.max(S.best || 0, S.streak); first = true; if (S.streak % 7 === 0) S.freeze++; }
   save();
   return {first, goalHit: before < S.goal && S.hist[t] >= S.goal};
 }

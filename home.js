@@ -13,7 +13,7 @@ export function render(el) {
   <div class="top"><div class="grow"><div class="mute">Salom 👋</div><h1 style="font-size:22px">${esc(name)}</h1></div>
     <div class="pill" title="Streak">🔥 ${S.streak}</div><div class="pill" title="Streak Freeze">🧊 ${S.freeze}</div><div class="pill" title="XP">⭐ ${S.xp}</div>
     <button class="icon" data-a="theme" aria-label="Rejim">${dark ? '☀️' : '🌙'}</button></div>
-  <div class="hello">${mascot(mood)}<div class="bubble">${msg}</div></div>
+  <div class="hello">${mascot(mood, 84, S.outfit)}<div class="bubble">${msg}</div></div>
   <div class="card hero"><h2 style="margin:0 0 4px">⚡ Tezkor dars</h2><p class="mute" style="margin-bottom:14px">5 daqiqa: takrorlash, yangi so‘zlar va quiz</p><button class="btn" data-a="go" data-t="learn">BOSHLASH</button></div>
   <div class="card"><div class="row" style="margin-bottom:8px"><b class="grow">Kunlik maqsad</b><span class="mute">${Math.min(d, goal)} / ${goal} XP</span></div>
     <div class="bar acc"><i style="width:${p * 100}%"></i></div>

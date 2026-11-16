@@ -1,6 +1,6 @@
 // O'yin 1: So'z duyeli. Hamma o'yinchi bir xil savollarni (seed bo'yicha) bir vaqtda (server vaqti) ko'radi.
 import {V} from './data.js';
-import {mistake, addXp, bump} from './store.js';
+import {S, save, mistake, addXp, bump} from './store.js';
 import * as net from './net.js';
 import {esc, hap, confetti} from './ui.js';
 
@@ -47,7 +47,7 @@ export const duel = {
   },
   result(el, qs, pl, room, ctx) {
     const me = ctx.me.id, mp = pl.find(p => p.id === me) || {ans: {}, s: 0}, key = 'res' + pl.map(p => p.s).join(',');
-    if (!done) { done = true; qs.forEach((q, i) => { const a = (mp.ans || {})[i]; if (!a || a.o !== q.right) mistake(q.w); }); addXp(Math.max(5, Math.round(mp.s / 10))); bump('quiz'); if (pl[0] && pl[0].id === me) confetti(); }
+    if (!done) { done = true; S.games = (S.games || 0) + 1; if (pl.length > 1 && pl[0].id === me) S.wins = (S.wins || 0) + 1; save(); qs.forEach((q, i) => { const a = (mp.ans || {})[i]; if (!a || a.o !== q.right) mistake(q.w); }); addXp(Math.max(5, Math.round(mp.s / 10))); bump('quiz'); if (pl[0] && pl[0].id === me) confetti(); }
     if (key === last) return; last = key;
     const miss = qs.filter((q, i) => !((mp.ans || {})[i] && mp.ans[i].o === q.right)), okN = N - miss.length;
     el.innerHTML = `<div class="pop"><div class="card" style="text-align:center"><div style="font-size:44px">${pl[0] && pl[0].id === me ? '🏆' : '🥨'}</div><h2 style="margin:4px 0 10px">Natijalar</h2>
